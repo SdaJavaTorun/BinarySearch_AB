@@ -9,7 +9,7 @@ public class Main {
         int p = tab.length;
         int l = 1;
         int x = 2;
-        //int s = 0;
+        int s = 0;
         boolean koniec = false;
 
         while(!koniec){
@@ -19,8 +19,8 @@ public class Main {
                 koniec = true;
             }
 
-            else {
-                int s = (l + p -1) / 2;
+
+                s = (l + p -1) / 2;
                 if (tab[s] == x) {
                     System.out.print("Odnaleziono szukany  " + x + "  pod indeksem  " + s);
                     koniec = true;
@@ -34,7 +34,7 @@ public class Main {
             }
         }
     }
-}
+
 
 
 
